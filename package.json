@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi generate",
+    "generate": "nuxi generate",
+    "start": "node .output/server/index.mjs",
+    "lint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore .",
+    "lint:fix": "eslint --fix --ext .js,.ts,.vue --ignore-path .gitignore ."
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "0.25.2",
+    "@nuxtjs/eslint-config-typescript": "10.0.0",
+    "@vueuse/components": "9.0.2",
+    "@vueuse/nuxt": "9.0.2",
+    "eslint": "8.20.0",
+    "eslint-plugin-nuxt": "3.2.0",
+    "nuxt": "3.0.0-rc.6",
+    "patch-vue-directive-ssr": "0.0.1",
+    "sass": "1.54.0",
+    "sass-loader": "12.6.0",
+    "typescript": "4.7.4"
+  },
+  "dependencies": {
+    "chart.js": "3.8.2",
+    "core-js": "3.24.1",
+    "primeflex": "3.2.1",
+    "primeicons": "5.0.0",
+    "primevue": "3.15.0",
+    "prismjs": "1.28.0"
+  }
+}
